@@ -30,7 +30,7 @@ const FooterFour = () => {
                   <img src="assets/img/icon/40.svg" alt="img" />
                 </div>
                 <div className="media-body">
-                  <h6 className="text-white">+(91)-974-115-389</h6>
+                  <h6 className="text-white">+(91)-974-1156-389</h6>
                   <p className="mb-0 text-white">Call 24HR / 7Days</p>
                 </div>
               </div>
