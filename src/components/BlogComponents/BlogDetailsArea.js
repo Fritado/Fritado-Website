@@ -153,7 +153,7 @@ const BlogDetailsArea = () => {
                     </p>
                   </div>
                 </div>
-                <div className='blog-comment'>
+                {/*<div className='blog-comment'>
                   <h4 className='mb-2'>Leave a Reply</h4>
                   <p>Your E-mail address not be published</p>
                   <ul className='comment-list mt-lg-4 pt-2 mt-4'>
@@ -240,7 +240,7 @@ const BlogDetailsArea = () => {
                       </article>
                     </li>
                   </ul>
-                </div>
+                </div>*/}
                 <form className='blog-comment-form'>
                   <div className='mb-3'>
                     <h4>Leave a Reply</h4>

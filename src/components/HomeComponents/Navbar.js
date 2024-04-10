@@ -84,7 +84,7 @@ const NavbarFour = () => {
               <span className="icon-right" />
             </button>
           </div>
-          <div className="logo">
+          <div className="logo pl-20">
             <Link to="/">
               <img src="assets/img/logo3.png" alt="img" />
             </Link>
