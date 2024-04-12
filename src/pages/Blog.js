@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+//import React, { useEffect, useState } from "react";
 /*import BlogGroup from "../components/BlogComponents/BlogGroup";*/
 import Breadcrumb from "../components/commonComp/Breadcrumb";
 import Footer from "../components/commonComp/Footer";
 import Header from "../components/commonComp/Header"
 import RecentBlog from "../components/commonComp/RecentBlog";
-import {
-    FaAngleLeft,
-    FaAngleRight,
-} from "react-icons/fa";
+//import {
+ //   FaAngleLeft,
+//    FaAngleRight,
+//} from "react-icons/fa";
 
-import axios from "axios";
-const BASE_URL = process.env.REACT_APP_BASE_URL
+//import axios from "axios";
+//const BASE_URL = process.env.REACT_APP_BASE_URL
 
 const Blog = () => {
  
@@ -27,7 +27,7 @@ const Blog = () => {
           {/*<BlogGroup />*/}
 
           <RecentBlog />
-
+{/*
           <div class='container'>
               <div class='row'>
                   <div class='col-md-12'>
@@ -53,7 +53,7 @@ const Blog = () => {
                       </div>
                   </div>
               </div>
-          </div>
+          </div>*/}
 
 
       {/* Footer One */}

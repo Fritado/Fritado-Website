@@ -14,24 +14,10 @@ const AboutAreaOne = () => {
                 data-aos-delay='100'
                 data-aos-duration='1500'
               >
-               {/*    <img
-                  className='animate-img-1 top_image_bounce'
-                  src='assets/img/about/2.png'
-                  alt='img'
-                />
-                <img
-                  className='animate-img-2 left_image_bounce'
-                  src='assets/img/about/3.png'
-                  alt='img'
-                />
-                <img
-                  className='animate-img-3 top_image_bounce'
-                  src='assets/img/banner/5.svg'
-                  alt='img'
-                />*/}
+              
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src='assets/img/about/1.jpg'
                   alt='img'
                 />
               </div>
@@ -57,34 +43,7 @@ const AboutAreaOne = () => {
                 <p className='content mb-4 mb-xl-5'>
                 With fritado.ai, say goodbye to the headaches of keyword analysis, technical setups, and keeping pace with Google's ever-evolving algorithms. We take care of everything from start to finish, ensuring not only time savings but also delivering unparalleled results. </p>
 
-            {/*     <div className='row d-flex flex-column'>
-                  <div className='col-auto mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
-                      </div>
-                      <div className='details'>
-                        <h5>Our Ambition</h5>
-                        <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className='col-auto'>
-                    <div className='single-about-inner'>
-                      
-                      <div className='details'>
-                        <h5>Our Ambition</h5>
-                        <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>*/}
+            
               </div>
             </div>
           </div>

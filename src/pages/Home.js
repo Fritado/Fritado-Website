@@ -1,7 +1,6 @@
 import React from "react";
 import AboutCompany from "../components/HomeComponents/AboutCompany";
 import HomeBanner from "../components/HomeComponents/HomeBanner";
-import RecentBlog from "../components/commonComp/RecentBlog";
 import Footer from "../components/commonComp/Footer";
 import Navbar from "../components/HomeComponents/Navbar";
 import BestServices from "../components/HomeComponents/BestServices";
@@ -27,7 +26,7 @@ const HomeFive = () => {
       <Pricing />
 
       {/* Blog Area Five */}
-      <RecentBlog />
+      {/*<RecentBlog />*/}
 
       {/* Footer Four */}
       <Footer />

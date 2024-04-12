@@ -3,15 +3,15 @@
     "",
     "\\public",
     "\\public\\assets",
-    "\\public\\assets\\img",
-    "\\public\\assets\\img\\about",
-    "\\public\\assets\\img\\bg",
     "\\public\\assets\\scss",
     "\\public\\assets\\scss\\global",
     "\\src",
     "\\src\\components",
-    "\\src\\components\\HomeComponents"
+    "\\src\\components\\Assets",
+    "\\src\\components\\HomeComponents",
+    "\\src\\pages",
+    "\\src\\scripts"
   ],
-  "SelectedNode": "\\src\\pages\\Blog.js",
+  "SelectedNode": "\\src\\components\\HomeComponents\\Pricing.js",
   "PreviewInSolutionExplorer": false
 }

@@ -48,7 +48,7 @@ const BannerFive = () => {
                   data-aos='fade-right'
                   data-aos-delay='450'
                   data-aos-duration='1500'
-                  to='/about'
+                                      to='https://portal.fritado.com/' target="_"
                 >
                   Register now <FaPlus />
                 </Link>

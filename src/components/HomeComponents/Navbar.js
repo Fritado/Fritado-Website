@@ -84,7 +84,7 @@ const NavbarFour = () => {
               <span className="icon-right" />
             </button>
           </div>
-          <div className="logo pl-20">
+          <div className="logo ">
             <Link to="/">
               <img src="assets/img/logo3.png" alt="img" />
             </Link>
@@ -109,13 +109,10 @@ const NavbarFour = () => {
               <li className="">
                 <Link to="/about">About</Link>
               </li>
-              <li className="">
+              {/*<li className="">
                 <Link to="/features">Features</Link>
               </li>
-
-              <li className="">
-                <Link to="/benefits">Benefits</Link>
-              </li>
+                */}
               <li className="">
                 <Link to="/blog">Blog</Link>
               </li>
@@ -127,12 +124,12 @@ const NavbarFour = () => {
               </li>
             </ul>
           </div>
-          <div className="nav-right-part nav-right-part-desktop align-self-center">
+          <div className="nav-right-part nav-right-part-desktop align-self-center  ">
             <Link
               className=" btn btn-base-color border-radius-5 d-flex align-items-center"
-              to="/about"
+                          to="https://portal.fritado.com/" target="_"
             >
-              Go to portal <FaArrowRight className="mt-0" />
+              Go to portal <FaArrowRight className="mt-0 " />
             </Link>
           </div>
         </div>

@@ -6,7 +6,7 @@ import Faq from "../components/AboutComp/Faq";
 import Footer from "../components/commonComp/Footer"
 import Teams from "../components/AboutComp/Teams";
 import Header from "../components/commonComp/Header";
-import RecentBlog from "../components/commonComp/RecentBlog";
+//import RecentBlog from "../components/commonComp/RecentBlog";
 
 
 const About = () => {
@@ -31,7 +31,7 @@ const About = () => {
       <Counter />
 
       {/*Blog Area */}
-      <RecentBlog />
+      {/*<RecentBlog />*/}
 
       {/* Footer One */}
       <Footer />

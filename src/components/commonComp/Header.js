@@ -115,13 +115,13 @@ const Header = () => {
               <li className="">
                 <Link to="/about">About</Link>
               </li>
-              <li className="">
+              {/*<li className="">
                 <Link to="/features">Features</Link>
-              </li>
+              </li>*/}
 
-              <li className="">
+             {/* <li className="">
                 <Link to="/benefits">Benefits</Link>
-              </li>
+              </li>*/}
               <li className="">
                 <Link to="/blog">Blog</Link>
               </li>
@@ -136,7 +136,7 @@ const Header = () => {
           <div className="nav-right-part nav-right-part-desktop align-self-center">
             <Link
               className="btn btn-base-color border-radius-5 d-flex align-items-center"
-              to="/about"
+                          to="https://portal.fritado.com/"
             >
                Go to portal <FaArrowRight className="mt-0" />
             </Link>
