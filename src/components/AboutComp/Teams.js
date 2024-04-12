@@ -39,7 +39,7 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Punit Kumar</Link>
+                  <Link to='/team-details'>Salan Khalkho</Link>
                   </h5>
                   <p>Technology Experts</p>
                 </div>
@@ -69,7 +69,7 @@ const TeamAreaOne = () => {
                 </div>
                 <div className='details'>
                   <h5>
-                  <Link to='/team-details'>Chandramohan Sharma</Link>
+                  <Link to='/team-details'>Mr. Name</Link>
                   </h5>
                   <p>Product Strategist</p>
                 </div>
