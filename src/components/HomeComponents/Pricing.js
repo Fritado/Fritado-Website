@@ -11,7 +11,7 @@ const PricingAreaOne = () => {
             <h6 class="sub-title-sky-blue">Pricing plan</h6>
             
             <h2 className='title'>
-              Best plane to get our <span>Services</span>
+              Best plan to get our <span>Services</span>
             </h2>
           </div>
           <div className='row'>
@@ -23,8 +23,7 @@ const PricingAreaOne = () => {
                 <h5>Standard</h5>
                 <ul>
                   <li>
-                    <FaCheck />
-                    Website Auditing
+                    <FaCheck /><span>Website Auditing</span>
                   </li>
                   <li>
                     <FaCheck />
@@ -32,7 +31,7 @@ const PricingAreaOne = () => {
                   </li>
                   <li>
                     <FaCheck />
-                    1 blog post per week
+                    15 blog post per Month
                   </li>
                   <li>
                     <FaCheck />
@@ -49,7 +48,7 @@ const PricingAreaOne = () => {
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                  href='#'
+                                  href='https://portal.fritado.com/' target="_"
                 >
                   Register now
                 </a>
@@ -58,38 +57,38 @@ const PricingAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-pricing-inner style-3 price-active'>
                 <h2 className='mb-3'>
-                  $19 <sub>/mo</sub>
+                  $79.99 <sub>/mo</sub>
                 </h2>
                 <h5>Premium</h5>
                 <ul>
                   <li>
                     <FaCheck />
-                    Mobile App Development
+                                      Website Auditing
                   </li>
                   <li>
                     <FaCheck />
-                    Branding &amp; Identity
+                                      Unlimited code changes
                   </li>
                   <li>
                     <FaCheck />
-                    Email Marketing &amp; Automation
+                                      30 blog post per Month
                   </li>
                   <li>
                     <FaCheck />
-                    E-commerce Solutions
+                                      Keyword optimization
                   </li>
                   <li className='hide'>
                     <FaCheck />
-                    Social Media Management
+                                      Reports &amp; Analytics
                   </li>
                   <li className='hide'>
                     <FaCheck />
-                    Video &amp; Animation Production{" "}
+                                      24/7 Client Support{" "}
                   </li>
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                  href='#'
+                                  href='https://portal.fritado.com/' target="_"
                 >
                   Register now
                 </a>
@@ -98,40 +97,40 @@ const PricingAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-pricing-inner style-3'>
                 <h2 className='mb-3'>
-                  $19 <sub>/mo</sub>
+                  Intended for established businesses and agencies {/*<sub>/mo</sub>*/}
                 </h2>
                 <h5>Enterprises</h5>
                 <ul>
+                                  <li style={{ display: 'inline-block' }}>
+                                      <FaCheck />
+                                      Dedicated Account Rep.
+                                  </li>
                   <li>
                     <FaCheck />
-                    Mobile App Development
+                                      Automated backlinks
                   </li>
                   <li>
                     <FaCheck />
-                    Branding &amp; Identity
+                                      Advanced website analytics
                   </li>
                   <li>
                     <FaCheck />
-                    Email Marketing &amp; Automation
-                  </li>
-                  <li>
-                    <FaCheck />
-                    E-commerce Solutions
+                                      Internal/external links
                   </li>
                   <li className='hide'>
                     <FaCheck />
-                    Social Media Management
+                                      Unlimited optimized pages
                   </li>
                   <li className='hide'>
                     <FaCheck />
-                    Video &amp; Animation Production{" "}
+                                      Custom blog post formats
                   </li>
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                  href='#'
+                  href='/support'
                 >
-                  Register now
+                  Enquire Now
                 </a>
               </div>
             </div>

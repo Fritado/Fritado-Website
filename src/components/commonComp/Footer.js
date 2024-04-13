@@ -1,4 +1,4 @@
-import React , {useEffect} from "react";
+import React  from "react";
 import {
   FaChevronRight,
   FaEnvelope,
@@ -7,8 +7,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaRegCalendarAlt,
-  FaTwitter,
-  FaYoutube,
+  FaLinkedinIn,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import ScrollUp from "./ScrollUp";
@@ -19,7 +18,7 @@ const FooterFour = () => {
     <>
       {/* ================== Footer Four Start ==================*/}
       <footer
-        className="footer-area bg-cover mt-0 pd-top-120"
+        className="footer-area bg-cover mt-20 pd-top-120"
         style={{ backgroundImage: 'url("assets/img/bg/14.png")' }}
       >
         <div className="footer-subscribe">
@@ -46,12 +45,12 @@ const FooterFour = () => {
                   </div>
                 </div>
                 <div className="col-lg-4">
-                  <a
+                  <Link 
                     className="btn w-100 btn-black sky border-radius-0"
                     href="#"
                   >
                     Submit now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -66,10 +65,10 @@ const FooterFour = () => {
                   <ul className="details text-white">
                     <li className="d-flex position-relative">
                       <FaMapMarkerAlt size={35} className="sky"  />
-                      No.1983, South end, D Street Road, Jayanagara 9th Block, Bengaluru, Karnataka 560069
+                      No.1983, South end, D Street Road, Jayanagara 9th Block, Bengaluru, Karnataka - 560069, INDIA
                     </li>
                     <li className="mt-3 d-flex position-relative">
-                      <FaPhoneAlt className="sky" /> +(91)-974-115-389
+                      <FaPhoneAlt className="sky" /> +(91)-974-1156-389
                     </li>
                     <li className="mt-2 d-flex position-relative">
                       <FaEnvelope className="sky" /> support@fritado.com
@@ -77,23 +76,19 @@ const FooterFour = () => {
                   </ul>
                   <ul className="social-media mt-4">
                     <li>
-                      <a href="#" className="sky">
+                                          <a href="https://www.facebook.com/fritado" className="sky">
                         <FaFacebookF /> 
                       </a>
                     </li>
+                    
                     <li>
-                      <a href="#" className="sky">
-                        <FaTwitter />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sky">
+                                          <a href="https://www.instagram.com/" className="sky">
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a href="#" className="sky">
-                        <FaYoutube />
+                                          <a href="https://www.linkedin.com/company/fritado-com/?viewAsMember=true" className="sky">
+                                              <FaLinkedinIn />
                       </a>
                     </li>
                   </ul>
@@ -118,7 +113,7 @@ const FooterFour = () => {
                       </span>
                     </Link>
                   </li>
-                  <li className="sky">
+                  {/*<li className="sky">
                     <Link to="/features">
                       <span className="d-flex">
                         <FaChevronRight /> Features{" "}
@@ -132,7 +127,7 @@ const FooterFour = () => {
 
                       </span>
                     </Link>
-                  </li>
+                  </li>*/}
                   <li className="sky">
                     <Link to="/blog">
                     <span className="d-flex">
@@ -162,12 +157,12 @@ const FooterFour = () => {
                 <h4 className="widget-title">Others</h4>
                 <ul>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link to="/#">
                      <span> Terms & Conditions</span> 
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/service">
+                    <Link to="/#">
                       <span>Privacy Policy</span>
                     </Link>
                   </li>
@@ -184,13 +179,13 @@ const FooterFour = () => {
                       <div className="media-body align-self-center">
                         <div className="post-info  mb-2">
                           <FaRegCalendarAlt className="sky" />
-                          <span>january 11, 2023</span>
+                                                  <span>April 10, 2024</span>
                         </div>
-                        <h6 className="title sky mb-0">
-                          <Link to="/blog-details">
-                            Social Media For Promote Business.
-                          </Link>
-                        </h6>
+                                              <h6 className='title sky mb-0'>
+                                                  <Link to='https://seo.ai/blog/simplified-alternatives'>
+                                                      Simplified Alternatives: Your Ultimate Guide
+                                                  </Link>
+                                              </h6>
                       </div>
                     </div>
                   </li>
@@ -199,13 +194,13 @@ const FooterFour = () => {
                       <div className="media-body align-self-center">
                         <div className="post-info mb-2">
                           <FaRegCalendarAlt className="sky" />
-                          <span>january 11, 2023</span>
+                                                  <span>April 8, 2024</span>
                         </div>
-                        <h6 className="title sky mb-0">
-                          <Link to="/blog-details">
-                            Marketing For Base marketing watch
-                          </Link>
-                        </h6>
+                                              <h6 className='title sky mb-0'>
+                                                  <Link to='https://seo.ai/blog/se-ranking-alternatives'>
+                                                      SE Ranking Alternatives 2024: Explore the Top Picks
+                                                  </Link>
+                                              </h6>
                       </div>
                     </div>
                   </li>
