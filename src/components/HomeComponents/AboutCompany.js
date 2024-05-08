@@ -30,7 +30,7 @@ const AboutAreaFive = () => {
               <div className="section-title mb-0 ps-xl-5">
                 <h6 className="sub-title-sky-blue">ABOUT COMPANY</h6>
                 <h2 className="title">
-                CMS-Revolutionizing SEO through Artificial Intelligence is Our Mission.
+                Revolutionizing SEO through Artificial Intelligence is Our Mission.
                 </h2>
                 <p className="content mb-4">
                 With a decade of experience in the search industry, we understand the challenges of crafting impactful SEO content. Our goal is to eliminate that struggle by leveraging advanced technologies and innovative solutions..
