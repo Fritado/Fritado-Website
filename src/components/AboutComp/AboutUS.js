@@ -34,7 +34,7 @@ const AboutAreaOne = () => {
                 Our Journey: <span> Pioneering SEO </span> with AI
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                We're not just another team; we're a passionate collective of seasoned SEO experts and forward-thinking entrepreneurs. Since 2014, we've delved deep into the realm of search engine optimization, providing invaluable guidance to numerous businesses along the way.</p>
+                Test-We're not just another team; we're a passionate collective of seasoned SEO experts and forward-thinking entrepreneurs. Since 2014, we've delved deep into the realm of search engine optimization, providing invaluable guidance to numerous businesses along the way.</p>
                 <p className='content mb-4 mb-xl-5'>
                 Despite the rapid advancements in technology, we've observed a stubborn reliance on outdated manual techniques for content generation, particularly in the realm of Google rankings. It's high time to break free from the status quo and unleash the full potential of modern AI.</p>
                 <p className='content mb-4 mb-xl-5'>
