@@ -38,7 +38,7 @@ const AboutAreaOne = () => {
                 <p className='content mb-4 mb-xl-5'>
                 Despite the rapid advancements in technology, we've observed a stubborn reliance on outdated manual techniques for content generation, particularly in the realm of Google rankings. It's high time to break free from the status quo and unleash the full potential of modern AI.</p>
                 <p className='content mb-4 mb-xl-5'>
-                Introducing fritado.ai – our brainchild conceived with a mission to transform the approach businesses take towards SEO. As specialists in this field, we've deliberately chosen to hone our expertise solely in search engine optimization. We firmly believe that specialization is not just advantageous, but imperative in navigating the complexities of modern SEO.
+                Introducing fritado AI – our brainchild conceived with a mission to transform the approach businesses take towards SEO. As specialists in this field, we've deliberately chosen to hone our expertise solely in search engine optimization. We firmly believe that specialization is not just advantageous, but imperative in navigating the complexities of modern SEO.
                 </p>
                 <p className='content mb-4 mb-xl-5'>
                 With fritado.ai, say goodbye to the headaches of keyword analysis, technical setups, and keeping pace with Google's ever-evolving algorithms. We take care of everything from start to finish, ensuring not only time savings but also delivering unparalleled results. </p>
