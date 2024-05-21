@@ -20,6 +20,8 @@ import NewBlog8 from "./components/BlogComponents/NewBlog8";
 import ContactUs from "./pages/ContactUs";
 
 
+const port = 30000;
+
 function App() {
   useEffect(() => {
     AOS.init({
