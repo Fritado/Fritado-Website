@@ -136,7 +136,7 @@ const Header = () => {
           <div className="nav-right-part nav-right-part-desktop align-self-center">
             <Link
               className="btn btn-base-color border-radius-5 d-flex align-items-center"
-                          to="https://portal.fritado.com/"
+                          to="https://platform.fritado.com/"
             >
                Go to portal <FaArrowRight className="mt-0" />
             </Link>

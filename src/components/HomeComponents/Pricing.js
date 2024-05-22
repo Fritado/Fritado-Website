@@ -48,7 +48,7 @@ const PricingAreaOne = () => {
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                                  href='https://portal.fritado.com/' target="_"
+                                  href='https://platform.fritado.com/' target="_"
                 >
                   Register now
                 </a>
@@ -88,7 +88,7 @@ const PricingAreaOne = () => {
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                                  href='https://portal.fritado.com/' target="_"
+                                  href='https://platform.fritado.com/' target="_"
                 >
                   Register now
                 </a>
