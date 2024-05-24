@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FaArrowRight, FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
+
 const Header = () => {
   const [active, setActive] = useState(false);
   const [navbar, setNavbar] = useState(false);
