@@ -13,7 +13,7 @@ const ServiceAreaFive = () => {
               <div className='section-title text-center'>
                 <h6 className='sub-title-sky-blue'>Key Features</h6>
                 <h2 className='title'>
-                Cutting-edge SEO strategies to boost your brand visibility and drive online revenue growth. - Testing
+                Cutting-edge SEO strategies to boost your brand visibility and drive online revenue growth.
                 </h2>
               </div>
             </div>
