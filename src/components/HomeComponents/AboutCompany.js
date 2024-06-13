@@ -33,6 +33,9 @@ const AboutAreaFive = () => {
                 Revolutionizing SEO through Artificial Intelligence is Our Mission.
                 </h2>
                 <p className="content mb-4">
+                Fritado AI revolutionizes your SEO strategy with automated solutions, propelling your brand visibility and online revenue growth.
+                </p>
+                <p className="content mb-4">
                 With a decade of experience in the search industry, we understand the challenges of crafting impactful SEO content. Our goal is to eliminate that struggle by leveraging advanced technologies and innovative solutions..
                 </p>
                 <div className="row">

@@ -30,7 +30,7 @@ const BannerFive = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                  Empowering Your Business With Artificial Intelligence.
+                  Empowering Businesses through AI-Driven SEO
                 </h2>
                 <p
                   className='content pe-xl-4'
@@ -38,7 +38,7 @@ const BannerFive = () => {
                   data-aos-delay='350'
                   data-aos-duration='1500'
                 >
-                  Fritado AI optimizes SEO for enterprises, automating up to 90% of tasks using advanced AI and machine learning, resulting in increased website traffic and profitability.
+                  Unlock your business’s potential with Fritado AI. We utilize cutting-edge artificial intelligence and machine learning to automate up to 90% of SEO tasks, driving increased website traffic and profitability.
                 </p>
                 <div>
 

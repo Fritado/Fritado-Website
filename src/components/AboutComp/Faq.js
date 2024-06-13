@@ -6,19 +6,19 @@ const FaqAreaOne = () => {
     const data = [
       {
         heading: "Innovation",
-        para: "Embedded in our core is a commitment to innovation, drivingus to render old, outdated methods obsolete and fully harness the potential of today's technology to deliver superior outcomes for our clients.",
+        para: "Continuously pushing boundaries to stay ahead in the SEO landscape.",
       },
       {
         heading: "Boldness",
-        para: " Our mission isn't about incremental improvements; it's aboutredefining the landscape of SEO for content creation. Thisdemands venturing onto uncharted paths and making daringdecisions.",
+        para: " Taking daring steps to implement and advocate for the most advanced SEO strategies.",
       },
       {
         heading: "Transparency",
-        para: "We firmly believe that transparency surrounding artificial intelligence is paramount. It's crucial to demonstrate that AI operates as intended and upholds ethical standards. While skepticism persists, openness is key to dispelling doubts.",
+        para: "Maintaining clear communication and honesty in every interaction.",
       },
       {
         heading: "Passion",
-        para: "Achieving excellence demands unwavering dedication and fervor. We are deeply passionate about our field and relish the fusion of state-of-the-art technology, craftsmanship, and expertise.",
+        para: "Driven by a deep love for what we do, striving to exceed expectations in every project.",
       },
     ];
   
@@ -56,12 +56,10 @@ const FaqAreaOne = () => {
                   The values that drive everything we do
                 </h6>
                 <h2 className="title">
-                  Some <span> fundamental principles </span> guide us every day.
+                 Fundamental <span>Principles  </span> that Drive Us.
                 </h2>
                 <p className="content">
-                  It is a long established fact that a reader will be distr
-                  acted bioiiy the end gail designa readable content of a page
-                  when looking.
+                Our operation is guided by core values that ensure we deliver the best service to our clients:
                 </p>
               </div>
              <div>

@@ -34,14 +34,13 @@ const AboutAreaOne = () => {
                 Our Journey: <span> Pioneering SEO </span> with AI
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                We're not just another team; we're a passionate collective of seasoned SEO experts and forward-thinking entrepreneurs. Since 2014, we've delved deep into the realm of search engine optimization, providing invaluable guidance to numerous businesses along the way.</p>
+                Welcome to Fritado AI – where innovation meets expertise. We’re not just a team; we are a coalition of seasoned SEO specialists and forward-thinking entrepreneurs on a mission to revolutionize the SEO landscape. Since our inception in 2014, we’ve dedicated ourselves to mastering the intricacies of search engine optimization, helping countless businesses achieve their online goals.</p>
                 <p className='content mb-4 mb-xl-5'>
-                Despite the rapid advancements in technology, we've observed a stubborn reliance on outdated manual techniques for content generation, particularly in the realm of Google rankings. It's high time to break free from the status quo and unleash the full potential of modern AI.</p>
+                Despite the rapid evolution of technology, many businesses still rely on outdated manual techniques for content generation and SEO management. This inefficiency has propelled us to create Fritado AI, an intelligent solution designed to automate and optimize SEO tasks.</p>
                 <p className='content mb-4 mb-xl-5'>
-                Introducing fritado AI – our brainchild conceived with a mission to transform the approach businesses take towards SEO. As specialists in this field, we've deliberately chosen to hone our expertise solely in search engine optimization. We firmly believe that specialization is not just advantageous, but imperative in navigating the complexities of modern SEO.
+                Our specialized focus allows us to navigate the complexities of modern SEO with unparalleled precision. With Fritado AI, you can say goodbye to the hassles of keyword analysis, technical setups, and keeping up with Google’s ever-changing algorithms. We take care of everything, ensuring you not only save time but also achieve exceptional results.
                 </p>
-                <p className='content mb-4 mb-xl-5'>
-                With fritado.ai, say goodbye to the headaches of keyword analysis, technical setups, and keeping pace with Google's ever-evolving algorithms. We take care of everything from start to finish, ensuring not only time savings but also delivering unparalleled results. </p>
+                
 
             
               </div>

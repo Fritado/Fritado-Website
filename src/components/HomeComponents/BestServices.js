@@ -28,10 +28,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>SEO Automation</Link>
+                    <Link to='/service-details'>Advanced AI and Machine Learning</Link>
                   </h5>
                   <p className='mb-0'>
-                  SEO automation involves leveraging software tools and technology to optimize and streamline the management of search engine optimization tasks and processes.
+                  Harness the power of AI and machine learning to automate and enhance your SEO strategies, ensuring precision, efficiency, and exceptional results.
 
                   </p>
                 </div>
@@ -44,10 +44,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Automated Content Strategy</Link>
+                    <Link to='/service-details'>Innovative SEO Solutions</Link>
                   </h5>
                   <p className='mb-0'>
-                  Streamlining the planning, creation, and management of content, our automated approach ensures efficiency and consistency in delivering impactful and strategic content solutions.
+                  Implement groundbreaking SEO solutions tailored to elevate your brand visibility, drive traffic, and boost online revenue through cutting-edge automation technologies.
                   </p>
                 </div>
               </div>
@@ -59,10 +59,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>AI-Driven Keyword Research Automation</Link>
+                    <Link to='/service-details'>Superior Content Automation</Link>
                   </h5>
                   <p className='mb-0'>
-                  In the realm of SEO, automated keyword research entails utilizing tools and software, such as Fritado, to discover and analyze relevant keywords and phrases for a website or business.
+                  Streamline content planning, creation, and management for consistent, impactful, and strategic content delivery with minimal manual intervention.
                   </p>
                 </div>
               </div>
@@ -81,10 +81,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Automated Competitor Research</Link>
+                    <Link to='/service-details'>Data-Driven Insights and Analytics</Link>
                   </h5>
                   <p className='mb-0'>
-                  Fritado, an SEO automation software for ecommerce, employs machine learning to analyze vast datasets including search engine, competitor, and ecommerce data.
+                  Leverage sophisticated analytics tools to gain deep insights into your website’s performance and optimize strategies based on actionable data.
                   </p>
                 </div>
               </div>
@@ -96,10 +96,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>Analytics</Link>
+                    <Link to='/service-details'>Comprehensive Keyword Optimization</Link>
                   </h5>
                   <p className='mb-0'>
-                  Fritado's automated app enables tracking and analyzing your business traffic, optimizing the utilization of the Fritado application.
+                  Utilize AI-driven keyword research to identify and target the most relevant and high-performing keywords, making your content stand out in search engine rankings.
                   </p>
                 </div>
               </div>
@@ -111,10 +111,10 @@ const ServiceAreaFive = () => {
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>
-                    <Link to='/service-details'>24/7 Client Support</Link>
+                    <Link to='/service-details'>24/7 Dedicated Support</Link>
                   </h5>
                   <p className='mb-0'>
-                  Rely on our 24/7 client support team to assist you whenever you require help. Reach out to us today and discover firsthand the impact of our dedicated support services!
+                  Our team is available around the clock to provide you with the assistance you need, ensuring a seamless and productive experience with Fritado AI.
                   </p>
                 </div>
               </div>
