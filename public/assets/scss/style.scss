@@ -46,6 +46,7 @@ Version: 1.0.0
 @import "global/_global";
 @import "global/_common";
 @import "global/_animate";
+@import "global/heading";
 
 //== Pages
 //== Sections
@@ -67,3 +68,4 @@ Version: 1.0.0
 @import "sections/project";
 @import "sections/_footer";
 @import "sections/_responsive";
+@import "sections/clientSlider"

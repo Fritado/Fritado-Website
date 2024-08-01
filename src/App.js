@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
 import Features from "./pages/Features";
+import ResearchDeveopment from "./pages/ResearchDeveopment";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -18,6 +19,9 @@ import NewBlog6 from "./components/BlogComponents/NewBlog6";
 import NewBlog7 from "./components/BlogComponents/NewBlog7";
 import NewBlog8 from "./components/BlogComponents/NewBlog8";
 import ContactUs from "./pages/ContactUs";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 function App() {
   useEffect(() => {
@@ -43,6 +47,8 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/demo" element={<Demo />} />
+        <Route exact path="/Research-and-development" element={<ResearchDeveopment />} />
+
               <Route exact path="/blog-details" element={<BlogDetails />} />
               <Route exact path="/NewBlog1" element={<NewBlog1 />} />
               <Route exact path="/NewBlog2" element={<NewBlog2 />} />

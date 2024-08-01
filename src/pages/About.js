@@ -11,7 +11,7 @@ import Header from "../components/commonComp/Header";
 
 const About = () => {
   return (
-    <>
+    <div>
       {/* Navigation Bar */}
       <Header />
 
@@ -35,7 +35,7 @@ const About = () => {
 
       {/* Footer One */}
       <Footer />
-    </>
+    </div>
   );
 };
 

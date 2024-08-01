@@ -1,34 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Breadcrumb = ({ title }) => {
+const Breadcrumb = ({ title, para }) => {
   return (
-    <>
-      {/* ================ Breadcrumb Start ================*/}
-      <div
-        className='breadcrumb-area bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/bg/7.png")' }}
-      >
-        <div className='container'>
-          <div className='breadcrumb-inner'>
-            <div className='row justify-content-center'>
-              <div className='col-lg-6'>
-                <h2 className='page-title'>{title}</h2>
-              </div>
-              <div className='col-lg-6 text-lg-end'>
-                <ul className='page-list'>
-                  <li>
-                    <a href='/'>Home</a>
-                  </li>
-                  {"  "}/ <li>{title}</li>
-                </ul>
-              </div>
-            </div>
+   
+      <div className="breadcrumb-area">
+        <div className="container breadcrumb-container">
+          <div className="">
+            <h1 className="page-title">{title}</h1>
+          </div>
+          <div className="title-para">
+            <p>{para}</p>
           </div>
         </div>
       </div>
-      {/* ================ Breadcrumb End ================*/}
-    </>
+    
   );
 };
 

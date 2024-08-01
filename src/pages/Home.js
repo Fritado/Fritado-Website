@@ -5,7 +5,8 @@ import Footer from "../components/commonComp/Footer";
 import Navbar from "../components/HomeComponents/Navbar";
 import BestServices from "../components/HomeComponents/BestServices";
 import Pricing from "../components/HomeComponents/Pricing";
-
+import Clients from "../components/HomeComponents/Clients";
+import Partner from "../components/HomeComponents/Partner";
 
 const HomeFive = () => {
   return (
@@ -16,6 +17,8 @@ const HomeFive = () => {
       {/* Banner Five */}
       <HomeBanner />
 
+      {/*Partner logo */}
+      <Partner />
       {/* About Area Five */}
       <AboutCompany />
 
@@ -25,8 +28,8 @@ const HomeFive = () => {
       {/**Pricing plan */}
       <Pricing />
 
-      {/* Blog Area Five */}
-      {/*<RecentBlog />*/}
+      {/* clients */}
+      <Clients />
 
       {/* Footer Four */}
       <Footer />
