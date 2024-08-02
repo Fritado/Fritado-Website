@@ -1,7 +1,7 @@
 import React from "react";
 import { contentPoints } from "./ResearchDevData";
 import ResearchDevCard from "./ResearchDevCard";
-import researchdevImage from "../Assets/ResearchDev/future-of-artificial-intelligence.png"
+import researchdevImage from "../Assets/ResearchDev/future-of-artificial-intelligence.png";
 import ResearchDevFAQ from "./ResearchDevFAQ";
 
 const ResearchDev = () => {
@@ -25,7 +25,11 @@ const ResearchDev = () => {
             </div>
           </div>
           <div className="RandDimage">
-            <img src={researchdevImage} alt="Research Development" className="inner-image" />
+            <img
+              src={researchdevImage}
+              alt="Research Development"
+              className="inner-image"
+            />
           </div>
         </div>
       </section>
@@ -62,8 +66,6 @@ const ResearchDev = () => {
           </div>
         </div>
       </section>
-
-
     </div>
   );
 };

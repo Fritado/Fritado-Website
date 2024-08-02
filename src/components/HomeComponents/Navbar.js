@@ -6,19 +6,22 @@ const NavbarFour = () => {
   const [active, setActive] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const [searchShow, setSearchShow] = useState(false);
+  const [logo, setLogo] = useState("assets/img/logo-white.png");
   const menuActive = () => {
     setActive(!active);
   };
   const searchActive = () => {
     setSearchShow(!searchShow);
-    console.log("hell");
+    
   };
 
   const changeBackground = () => {
     if (window.scrollY >= 92) {
       setNavbar(true);
+      setLogo("assets/img/logo3.png");
     } else {
       setNavbar(false);
+      setLogo("assets/img/logo-white.png");
     }
   };
 
@@ -86,7 +89,7 @@ const NavbarFour = () => {
           </div>
           <div className="logo ">
             <Link to="/">
-              <img src="assets/img/logo3.png" alt="img" />
+              <img src={logo} alt="fritado-logo" />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
@@ -106,18 +109,18 @@ const NavbarFour = () => {
               <li className="">
                 <Link to="/">Home</Link>
               </li>
+              
               <li className="">
-                <Link to="/about">About</Link>
-              </li>
-              {/*<li className="">
-                <Link to="/features">Features</Link>
-              </li>
-                */}
-              <li className="">
-                <Link to="/blog">Blog</Link>
+                <Link to="/solutions">Solutions</Link>
               </li>
               <li className="">
                 <Link to="/demo">Demo</Link>
+              </li>
+              <li className="">
+                <Link to="/Research-and-development">R&D center</Link>
+              </li>
+               <li className="">
+                <Link to="#">Partners</Link>
               </li>
               <li>
                 <Link to="/support">Support</Link>

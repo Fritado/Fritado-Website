@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
-import Features from "./pages/Features";
+import Solutions from "./pages/Solutions";
 import ResearchDeveopment from "./pages/ResearchDeveopment";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -61,7 +61,7 @@ function App() {
 
         {/*<Route exact path="/benefits" element={<Benefits />} />*/}
         <Route exact path="/support" element={<ContactUs />} />
-        <Route exact path="/features" element={<Features />} />
+        <Route exact path="/solutions" element={<Solutions />} />
       </Routes>
      
       
