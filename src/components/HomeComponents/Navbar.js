@@ -119,9 +119,7 @@ const NavbarFour = () => {
               <li className="">
                 <Link to="/Research-and-development">R&D center</Link>
               </li>
-               <li className="">
-                <Link to="#">Partners</Link>
-              </li>
+              
               <li>
                 <Link to="/support">Support</Link>
               </li>

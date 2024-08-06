@@ -1,12 +1,12 @@
 import React from "react";
-import AboutCompany from "../components/HomeComponents/AboutCompany";
 import HomeBanner from "../components/HomeComponents/HomeBanner";
 import Footer from "../components/commonComp/Footer";
 import Navbar from "../components/HomeComponents/Navbar";
 import BestServices from "../components/HomeComponents/BestServices";
-import Pricing from "../components/HomeComponents/Pricing";
 import Clients from "../components/HomeComponents/Clients";
 import Partner from "../components/HomeComponents/Partner";
+import ResearchDevFAQ from "../components/ResearchDevelopment/ResearchDevFAQ";
+import Testimonial from "../components/HomeComponents/Testimonial";
 
 const HomeFive = () => {
   return (
@@ -19,15 +19,26 @@ const HomeFive = () => {
 
       {/*Partner logo */}
       <Partner />
-      {/* About Area Five */}
-      <AboutCompany />
 
       {/* Service Area Five */}
       <BestServices />
 
-      {/**Pricing plan */}
-      <Pricing />
+      {/* FAQ */}
+      <section>
+        <div className="container ">
+          <div className="d-flex flex-column justify-content-center align-items-center text-center head-div">
+            <h2 className="heading">Why Choose Fritado R&D Center?</h2>
+            <div className="title-para">
+              <p>Rapidly evolving technological landscape, the demand for</p>
+            </div>
+          </div>
+          <div>
+            <ResearchDevFAQ />
+          </div>
+        </div>
+      </section>
 
+      <Testimonial />
       {/* clients */}
       <Clients />
 

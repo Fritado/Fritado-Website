@@ -3,32 +3,33 @@ import AboutUS from "../components/AboutComp/AboutUS";
 import Breadcrumb from "../components/commonComp/Breadcrumb";
 import Counter from "../components/AboutComp/Counter";
 import Faq from "../components/AboutComp/Faq";
-import Footer from "../components/commonComp/Footer"
-import Teams from "../components/AboutComp/Teams";
+import Footer from "../components/commonComp/Footer";
 import Header from "../components/commonComp/Header";
 //import RecentBlog from "../components/commonComp/RecentBlog";
-
 
 const About = () => {
   return (
     <div>
       {/* Navigation Bar */}
       <Header />
-
-      {/* Navigation Bar */}
-      <Breadcrumb title={"About Us"} />
-
-      {/* About Area One */}
+      <div className="d-flex flex-column justify-content-center align-items-center">
+        <Breadcrumb
+          title={
+            "Transforming SEO with AI"
+          }
+          para={
+            "Fritado AI transforms your SEO strategy with automation, boosting brand visibility and online revenue."
+          }
+        />
+      </div>
       <AboutUS />
+      {/* About Area One */}
 
       {/* FAQ Area One */}
       <Faq />
 
-      {/* Team Area One */}
-      <Teams />
-
       {/* Counter Area One */}
-      <Counter />
+      {/* <Counter /> */}
 
       {/*Blog Area */}
       {/*<RecentBlog />*/}

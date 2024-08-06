@@ -17,8 +17,8 @@ const FooterFour = () => {
     <>
       {/* ================== Footer Four Start ==================*/}
       <footer
-        className="footer-area bg-cover mt-20 pd-top-120"
-        style={{ backgroundImage: 'url("assets/img/bg/14.png")' }}
+        className="footer-area bg-cover mt-20 pd-top-100"
+        //style={{ backgroundImage: 'url("assets/img/bg/14.png")' }}
       >
         <div className="footer-subscribe">
           {/* <div className="container">
@@ -58,14 +58,15 @@ const FooterFour = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
+                <div className="my-3">
+                  <img src={"assets/img/logo-white.png"} style={{width:"180px"}}/>
+                </div>
               <div className="widget widget-recent-post">
-                <h4 className="widget-title">Contact us</h4>
                 <div className="widget widget_contact">
-                  <ul className="details text-white">
+                  <ul className="details">
                     <li className="d-flex position-relative">
                       <FaMapMarkerAlt size={35} className="sky" />
-                      No.1983, South end, D Street Road, Jayanagara 9th Block,
-                      Bengaluru, Karnataka - 560069, INDIA
+                      No. 8, CMH Road, 2nd Stage, Indiranagar, Bengaluru, Karnataka - 560 038
                     </li>
                     <li className="mt-3 d-flex position-relative">
                       <FaPhoneAlt className="sky" /> +(91)-974-1156-389
@@ -119,21 +120,30 @@ const FooterFour = () => {
                       </span>
                     </Link>
                   </li>
-                  {/*<li className="sky">
-                    <Link to="/features">
+                  <li className="sky">
+                    <Link to="/solutions">
                       <span className="d-flex">
-                        <FaChevronRight /> Features{" "}
+                        <FaChevronRight />Solutions
                       </span>
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/benefits">
+                    <Link to="/pricing">
                       <span className="d-flex">
-                      <FaChevronRight /> Benefits
+                      <FaChevronRight />Pricing
 
                       </span>
                     </Link>
-                  </li>*/}
+                  </li>
+
+                  <li className="sky">
+                    <Link to="/Research-and-development">
+                      <span className="d-flex">
+                      <FaChevronRight />R&D Center
+
+                      </span>
+                    </Link>
+                  </li>
                   <li className="sky">
                     <Link to="/blog">
                       <span className="d-flex">
@@ -163,12 +173,12 @@ const FooterFour = () => {
                 <h4 className="widget-title">Others</h4>
                 <ul>
                   <li className="sky">
-                    <Link to="/#">
+                    <Link to="/terms-and-condition">
                       <span> Terms & Conditions</span>
                     </Link>
                   </li>
                   <li className="sky">
-                    <Link to="/#">
+                    <Link to="/privacy-policy">
                       <span>Privacy Policy</span>
                     </Link>
                   </li>
@@ -186,7 +196,7 @@ const FooterFour = () => {
                           <FaRegCalendarAlt className="sky" />
                           <span>April 10, 2024</span>
                         </div>
-                        <h6 className="title sky mb-0">
+                        <h6 className=" title-footer sky mb-0">
                           <Link to="https://seo.ai/blog/simplified-alternatives">
                             Simplified Alternatives: Your Ultimate Guide
                           </Link>
@@ -201,7 +211,7 @@ const FooterFour = () => {
                           <FaRegCalendarAlt className="sky" />
                           <span>April 8, 2024</span>
                         </div>
-                        <h6 className="title sky mb-0">
+                        <h6 className="title-footer sky mb-0">
                           <Link to="https://seo.ai/blog/se-ranking-alternatives">
                             SE Ranking Alternatives 2024: Explore the Top Picks
                           </Link>

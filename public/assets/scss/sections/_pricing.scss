@@ -89,3 +89,104 @@
 		}
 	}
 }
+/*******************************************************************/
+.planCard{
+	max-width: 16.5rem;
+    margin-right: 1.6rem;
+    margin-bottom: 0;
+	flex: 1;
+  
+  display: flex;
+  flex-direction: column;
+    
+}
+.plan-card-container{
+	height: 100%;
+    border-radius: 1rem;
+    background-color: rgba(9, 3, 66, 0.02);
+	overflow: hidden; /* Prevent overflow */
+  display: flex;
+  flex-direction: column;
+}
+.planCardWrapper{
+	height: 100%;
+    padding: 2rem 2.4rem;
+    border-radius: inherit;
+    background-color:#01496405;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  flex: 1;
+}
+.planCardHeader{
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.8rem;
+    margin-bottom: 1.2rem;
+
+}
+.PlanCard_PriceBlock{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.2rem;
+}
+.PlanCard_planName{
+	font-weight: 800;
+    margin-bottom: 1.2rem;
+}
+.PlanCard_planUseDescription{
+	min-height: 5.4rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.PlanCard_planCardPrice{
+	display: flex;
+	align-items: flex-end;
+	margin-bottom:1.2rem;
+}
+.PlanCard_optionPrice{
+	padding-top: 1rem;
+	//margin-right: .8rem;
+	display: flex;
+	
+}
+.PlanCard_priceSymbol{
+	margin-right:0.2rem;
+	font-size: 1.2rem;
+
+}
+.PlanCard_mm_yy{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.PlanCard_operationsContainer{
+	border-radius:0.4rem;
+	border:2px solid #0149645e;
+	text-align:center;
+	padding: .8rem;
+}
+.PlanCard_descWrapper{
+	margin-bottom:3rem;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.8rem;
+
+}
+.PlanCard_planFeatures{
+	margin-top: 2rem;
+}
+.PlanCard_planFeature{
+	display: flex;
+	flex-direction: row;
+	gap:5px;
+	align-items: center;
+	margin-bottom:0.8rem;
+}
+.pricing-button{
+	border-radius:0.4rem;
+}

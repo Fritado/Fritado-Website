@@ -121,21 +121,17 @@ const Header = () => {
                 <Link to="/solutions">Solutions</Link>
               </li>
 
-             {/* <li className="">
-                <Link to="/benefits">Benefits</Link>
-              </li>*/}
-              {/* <li className="">
-                <Link to="/blog">Blog</Link>
-              </li> */}
+             <li className="">
+                <Link to="/pricing">Pricing</Link>
+              </li>
+              
               <li className="">
                 <Link to="/demo">Demo</Link>
               </li>
               <li className="">
                 <Link to="/Research-and-development">R&D center</Link>
               </li>
-               <li className="">
-                <Link to="#">Partners</Link>
-              </li>
+              
               <li>
                 <Link to="/support">Support</Link>
               </li>

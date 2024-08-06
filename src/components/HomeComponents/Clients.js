@@ -20,6 +20,7 @@ import FritadoClient17 from "../Assets/clientLogo/client/Fritado_client_srimisri
 import FritadoClient18 from "../Assets/clientLogo/client/Fritado_client_suguna_hospital.png";
 import FritadoClient19 from "../Assets/clientLogo/client/Fritado_client_susti.png";
 import FritadoClient20 from "../Assets/clientLogo/client/Fritado_client_vijayashree_Hospitals.png";
+import FritadoClient21 from "../Assets/clientLogo/client/DUCB_logo_x.png";
 
 const ClientImages = [
   FritadoClient1,
@@ -42,6 +43,7 @@ const ClientImages = [
   FritadoClient18,
   FritadoClient19,
   FritadoClient20,
+  FritadoClient21,
 ];
 
 const Clients = () => {
@@ -52,20 +54,32 @@ const Clients = () => {
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000, // Adjust the speed as needed
+    autoplaySpeed: 1000,
     cssEase: "linear",
-   
   };
   return (
-    <div className="image-slider">
-      <Slider {...settings}>
-        {ClientImages.map((img, index) => (
-          <div key={index} className="">
-            <img src={img} alt={`Slide ${index}`} />
+    <section className="head-div">
+      <div className="">
+        <div className="d-flex flex-column justify-content-center align-items-center text-center title-content">
+          <h2 className="heading">Happy customers</h2>
+          <div className="title-para">
+            <p>
+              Trusted by thousands of rapidly growing organizations worldwide.
+            </p>
           </div>
-        ))}
-      </Slider>
-    </div>
+        </div>
+        </div>
+        <div className="image-slider">
+          <Slider {...settings}>
+            {ClientImages.map((img, index) => (
+              <div key={index}>
+                <img src={img} alt={`Slide ${index}`} />
+              </div>
+            ))}
+          </Slider>
+        </div>
+      
+    </section>
   );
 };
 

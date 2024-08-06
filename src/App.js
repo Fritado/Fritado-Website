@@ -19,9 +19,11 @@ import NewBlog6 from "./components/BlogComponents/NewBlog6";
 import NewBlog7 from "./components/BlogComponents/NewBlog7";
 import NewBlog8 from "./components/BlogComponents/NewBlog8";
 import ContactUs from "./pages/ContactUs";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Pricing from "./pages/Pricing";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndCondition from "./pages/TermsAndCondition";
 
 function App() {
   useEffect(() => {
@@ -31,7 +33,6 @@ function App() {
       once: true,
     });
     AOS.refresh();
-  
   }, []);
 
   // const FooterFour = () => {
@@ -47,26 +48,35 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/demo" element={<Demo />} />
-        <Route exact path="/Research-and-development" element={<ResearchDeveopment />} />
+        <Route
+          exact
+          path="/Research-and-development"
+          element={<ResearchDeveopment />}
+        />
+        <Route
+          exact
+          path="/terms-and-condition"
+          element={<TermsAndCondition />}
+        />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
 
-              <Route exact path="/blog-details" element={<BlogDetails />} />
-              <Route exact path="/NewBlog1" element={<NewBlog1 />} />
-              <Route exact path="/NewBlog2" element={<NewBlog2 />} />
-              <Route exact path="/NewBlog3" element={<NewBlog3 />} />
-              <Route exact path="/NewBlog4" element={<NewBlog4 />} />
-              <Route exact path="/NewBlog5" element={<NewBlog5 />} />
-              <Route exact path="/NewBlog6" element={<NewBlog6 />} />
-              <Route exact path="/NewBlog7" element={<NewBlog7 />} />
-              <Route exact path="/NewBlog8" element={<NewBlog8 />} />
+        <Route exact path="/blog-details" element={<BlogDetails />} />
+        <Route exact path="/NewBlog1" element={<NewBlog1 />} />
+        <Route exact path="/NewBlog2" element={<NewBlog2 />} />
+        <Route exact path="/NewBlog3" element={<NewBlog3 />} />
+        <Route exact path="/NewBlog4" element={<NewBlog4 />} />
+        <Route exact path="/NewBlog5" element={<NewBlog5 />} />
+        <Route exact path="/NewBlog6" element={<NewBlog6 />} />
+        <Route exact path="/NewBlog7" element={<NewBlog7 />} />
+        <Route exact path="/NewBlog8" element={<NewBlog8 />} />
 
         {/*<Route exact path="/benefits" element={<Benefits />} />*/}
         <Route exact path="/support" element={<ContactUs />} />
         <Route exact path="/solutions" element={<Solutions />} />
+        <Route exact path="/pricing" element={<Pricing />} />
       </Routes>
-     
-      
-     {/* <ScrollToTop smooth color="rgba(47, 130, 162, 0.8588235294)"/>*/}
-      
+
+      {/* <ScrollToTop smooth color="rgba(47, 130, 162, 0.8588235294)"/>*/}
     </BrowserRouter>
   );
 }

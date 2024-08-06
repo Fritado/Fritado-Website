@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const SolutionCard = ({ points, showKeyPoints }) => {
   return (
-    <div className="container">
+    <div className="">
       {showKeyPoints && (
         <div className="solution-cards-container">
           {points.map((point, index) => (

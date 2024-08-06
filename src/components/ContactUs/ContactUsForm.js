@@ -14,7 +14,6 @@ const ContactUsForm = () => {
   });
 
   const { firstname, lastname, email, phoneno, message } = formData;
-
   const handleOnChange = async (e) => {
     console.log(e.target.value);
     const { name, value } = e.target;
@@ -46,174 +45,103 @@ const ContactUsForm = () => {
   };
 
   return (
-    <form onSubmit={sendMessage} className="w-full flex flex-col gap-5">
-      <div className="flex flex-col gap-6 lg:flex-row">
-        {/*firstname */}
-        <div className="flex flex-col gap-2 lg:w-[48%]">
-          <label
-            htmlFor="firstname"
-            className="text-[16px] text-stone-900 text-justify font-semibold"
-          >
-            First Name
-          </label>
-          <input
-            type="text"
-            name="firstname"
-            id="firstname"
-            value={firstname}
-            onChange={handleOnChange}
-            placeholder="Enter First Name"
-            style={{
-              boxShadow:
-                " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-            }}
-            className="p-3 text-[16px] mb-2
-           leading-[20px] placeholder:text-richblack-400 "
-          />
-        </div>
-
-        {/*lastname */}
-        <div className="flex flex-col gap-2 lg:w-[48%]">
-          <label
-            htmlFor="lastname"
-            className="text-[16px]text-stone-900  text-justify font-semibold"
-          >
-            Last Name
-          </label>
-          <input
-            type="text"
-            name="lastname"
-            id="lastname"
-            value={lastname}
-            onChange={handleOnChange}
-            placeholder="Enter Last Name"
-            style={{
-              boxShadow:
-                " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-            }}
-            className=" p-3 text-[16px] mb-2
-           leading-[20px] placeholder:text-richblack-400 "
-          />
-        </div>
-      </div>
-
-      {/*email */}
-      <div className="flex flex-col gap-2 ">
-        <label
-          htmlFor="email"
-          className="text-[16px]  text-gray-800 text-justify font-semibold"
-        >
-          Email Address
-        </label>
+    <form onSubmit={sendMessage} className="w-full flex flex-col gap-6">
+    <div className="flex flex-col lg:flex-row gap-6">
+      {/* First Name */}
+      <div className="flex flex-col lg:w-1/2">
+       
         <input
-          type="email"
-          name="email"
-          id="email"
-          value={email}
+          type="text"
+          name="firstname"
+          id="firstname"
+          value={firstname}
           onChange={handleOnChange}
-          placeholder="Enter Email here"
-          style={{
-            boxShadow:
-              " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-          }}
-          className="p-3 text-[16px] mb-2
-        leading-[20px] placeholder:text-richblack-400 "
+          placeholder="Enter First Name"
+          className="p-3 border rounded shadow-sm"
         />
       </div>
-      {/*phone no */}
-      <div className="flex flex-col gap-2">
-        <label
-          htmlFor="phonenumber"
-          className="text-[16px] text-stone-800 text-justify font-semibold"
-        >
-          Phone Number
-        </label>
+
+      {/* Last Name */}
+      <div className="flex flex-col lg:w-1/2">
+        
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          value={lastname}
+          onChange={handleOnChange}
+          placeholder="Enter Last Name"
+          className="p-3 border rounded shadow-sm"
+        />
+      </div>
+    </div>
+
+    {/* Email */}
+    <div className="flex flex-col">
+      
+      <input
+        type="email"
+        name="email"
+        id="email"
+        value={email}
+        onChange={handleOnChange}
+        placeholder="Enter Email"
+        className="p-3 border rounded shadow-sm"
+      />
+    </div>
+
+    {/* Phone Number */}
+    <div className="flex flex-col">       
         <div className="flex gap-3">
-          <div className=" flex w-[63px] flex-col">
-            {/*dropdown */}
-            <select
-              name="dropdown"
-              id="dropdown"
-              className="py-3 text-[16px] mb-2
-              placeholder:text-richblack-400"
-              style={{
-                boxShadow:
-                  " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-              }}
-            >
-              {CountryCode.map((element, index) => {
-                return (
-                  <option key={index} value={element.code}>
-                    {element.code} - {element.country}
-                  </option>
-                );
-              })}
-            </select>
-          </div>
-          <div className="flex w-[calc(100%-90px)] flex-col gap-2">
-            <input
-              type="number"
-              name="phoneno"
-              id="phonenumber"
-              value={phoneno}
-              onChange={handleOnChange}
-              placeholder="12345 67890"
-              style={{
-                boxShadow:
-                  " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-              }}
-              className="p-3 text-[16px] mb-2
-              leading-[20px] placeholder:text-richblack-400"
-              // {...register("phoneNo", {
-              //   required: {
-              //     value: true,
-              //     message: "Please enter your Phone Number",
-              //   },
-              //   maxLength: { value: 10, message: "Invalid Phone Number" },
-              //   minLnegth: { value: 8, message: "Invalid Phone Number" },
-              // })}
-            />
-          </div>
+          <select
+            name="dropdown"
+            id="dropdown"
+            className="p-3 border rounded shadow-sm w-24"
+          >
+            {CountryCode.map((element, index) => (
+              <option key={index} value={element.code}>
+                {element.code} - {element.country}
+              </option>
+            ))}
+          </select>
+          <input
+            type="number"
+            name="phoneno"
+            id="phoneno"
+            value={phoneno}
+            onChange={handleOnChange}
+            placeholder="12345 67890"
+            className="p-3 border rounded shadow-sm flex-grow"
+          />
         </div>
       </div>
+    {/* Message */}
+    <div className="flex flex-col">
+     
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="5"
+        value={message}
+        onChange={handleOnChange}
+        placeholder="Enter Your message here"
+        className="p-3 border rounded shadow-sm"
+      />
+    </div>
 
-      {/*message */}
-      <div className="flex flex-col gap-2">
-        <label
-          htmlFor="message"
-          className="text-[16px] text-stone-800 text-justify font-semibold"
-        >
-          Message
-        </label>
-        <textarea
-          name="message"
-          id="message"
-          cols="30"
-          rows="3"
-          value={message}
-          onChange={handleOnChange}
-          placeholder="Enter Your message here"
-          style={{
-            boxShadow:
-              " rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px",
-          }}
-          className="p-3 text-[16px] mb-2
-        leading-[20px] placeholder:text-richblack-400 "
-        />
-      </div>
-
-      {/*button */}
-      <div className="mt-2 self-start">
-        <button
-          className="btn btn-base-color border-radius-5 d-flex align-items-center"
-          type="submit"
-          style={{ background: "rgba(47, 130, 162, 0.8588235294" }}
-        >
-          Send Message
-        </button>
-      </div>
-    </form>
-  );
+    {/* Submit Button */}
+    <div className="self-start">
+      <button
+        className="text-white py-3 px-6 rounded shadow hover:bg-blue-700 transition"
+        type="submit"
+        style={{ background: "rgba(47, 130, 162, 0.8588235294" }}
+      >
+        Send Message
+      </button>
+    </div>
+  </form>
+);
 };
 
 export default ContactUsForm;

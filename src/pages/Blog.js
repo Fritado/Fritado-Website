@@ -1,4 +1,4 @@
-//import React, { useEffect, useState } from "react";
+import React from "react";
 /*import BlogGroup from "../components/BlogComponents/BlogGroup";*/
 import Breadcrumb from "../components/commonComp/Breadcrumb";
 import Footer from "../components/commonComp/Footer";
@@ -21,7 +21,12 @@ const Blog = () => {
       <Header />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Blog"} />
+      <div className="d-flex flex-column justify-content-center align-items-center">
+        <Breadcrumb
+          title={"Blog"}
+          para={"Whatever question you have, please feel free to ask."}
+        />
+      </div>
 
       {/* Blog Group   key={posts._id} post={posts}*/}
           {/*<BlogGroup />*/}

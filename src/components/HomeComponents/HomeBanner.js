@@ -1,82 +1,76 @@
 import React, { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Img1 from '../Assets/HomeAssets/Img1.png'
+import Img1 from "../Assets/HomeAssets/Img1.png";
 
 const BannerFive = () => {
-
   return (
     <>
       {/* ================== BannerFive Start ==================*/}
       <div
-        className='banner-area bg-relative banner-area-2 pb-0 bg-cover'
+        className="banner-area bg-relative banner-area-2 pb-0 bg-cover"
         style={{ backgroundImage: 'url("./assets/img/banner-5/5.png")' }}
       >
-        <div className='container pt-20'>
-          <div className='row'>
-            <div className='col-lg-6 pb-xl-5 align-self-center'>
-              <div className='banner-inner pe-xl-4 pb-5'>
+        <div className="container pt-20">
+          <div className="row">
+            <div className="col-lg-6 pb-xl-5 align-self-center">
+              <div className="banner-inner pe-xl-4 pb-5">
                 <h6
-                  className='bg-base-2 text-white subtitle'
-                  data-aos='fade-right'
-                  data-aos-delay='100'
-                  data-aos-duration='1500'
+                  className="bg-base-2 text-white subtitle"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                  data-aos-duration="1500"
                 >
-                  Unlocking Your Busineses's Potential
+                  Effortless Traffic Engine
                 </h6>
                 <h2
-                  className='title text-white'
-                  data-aos='fade-right'
-                  data-aos-delay='250'
-                  data-aos-duration='1500'
+                  className="title text-white"
+                  data-aos="fade-right"
+                  data-aos-delay="250"
+                  data-aos-duration="1500"
                 >
-                  Empowering Businesses through AI-Driven SEO
+                  Boost Traffic with AI-Driven SEO
                 </h2>
                 <p
-                  className='content pe-xl-4'
-                  data-aos='fade-right'
-                  data-aos-delay='350'
-                  data-aos-duration='1500'
+                  className="content pe-xl-4"
+                  style={{color:"#c7cacb"}}
+                  data-aos="fade-right"
+                  data-aos-delay="350"
+                  data-aos-duration="1500"
                 >
-                  Unlock your business’s potential with Fritado AI. We utilize cutting-edge artificial intelligence and machine learning to automate up to 90% of SEO tasks, driving increased website traffic and profitability.
+                  Automate Article Writing to Attract Targeted Customers and
+                  Implement SEO to Rank Your Website on Google's First Page for
+                  High-Value Keywords
                 </p>
                 <div>
-
-                
-                <Link
-                  className='btn btn-border-base-2'
-                  data-aos='fade-right'
-                  data-aos-delay='450'
-                  data-aos-duration='1500'
-                  to='https://platform.fritado.com/' target="_"
-                >
-                  Register now <FaPlus />
-                </Link>
-                
-                  
+                  <Link
+                    className="btn btn-border-base-2"
+                    data-aos="fade-right"
+                    data-aos-delay="450"
+                    data-aos-duration="1500"
+                    to="https://platform.fritado.com/"
+                    target="_"
+                  >
+                    Register now <FaPlus />
+                  </Link>
                 </div>
-                
               </div>
             </div>
-            <div className='col-lg-6 col-md-9 align-self-end'>
-              <div className='banner-thumb-2 mt-4 mt-lg-0'>
-                <div className='main-img-wrap'>
+            <div className="col-lg-6 col-md-9 align-self-end">
+              <div className="banner-thumb-2 mt-4 mt-lg-0">
+                <div className="main-img-wrap">
                   <img
-                    className='banner-animate-img banner-animate-img-1 left_image_bounce'
+                    className="banner-animate-img banner-animate-img-1 left_image_bounce"
                     src="assets/img/banner-5/4.png"
-                    alt='img'
+                    alt="img"
                   />
                   <img
-                    className='banner-animate-img banner-animate-img-3 top_image_bounce'
-                    src='assets/img/banner-5/3.png'
-                    alt='img'
+                    className="banner-animate-img banner-animate-img-3 top_image_bounce"
+                    src="assets/img/banner-5/3.png"
+                    alt="img"
                   />
                   <div>
-                    <img
-                      className='main-img'
-                      src={Img1}
-                      alt='img'
-                    />
+                    <img className="main-img" src={Img1} alt="img" />
                   </div>
                 </div>
               </div>

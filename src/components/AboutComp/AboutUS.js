@@ -29,11 +29,11 @@ const AboutAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                <h6 className='sub-title'>ABOUT US</h6>
-                <h2 className='title'>
-                Our Journey: <span> Pioneering SEO </span> with AI
+                
+                <h2 className="heading">
+                Our Journey: Pioneering SEO  with AI
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
+                <p className='content mb-4 mb-xl-5 title-para'>
                 Welcome to Fritado AI – where innovation meets expertise. We’re not just a team; we are a coalition of seasoned SEO specialists and forward-thinking entrepreneurs on a mission to revolutionize the SEO landscape. Since our inception in 2014, we’ve dedicated ourselves to mastering the intricacies of search engine optimization, helping countless businesses achieve their online goals.</p>
                 <p className='content mb-4 mb-xl-5'>
                 Despite the rapid evolution of technology, many businesses still rely on outdated manual techniques for content generation and SEO management. This inefficiency has propelled us to create Fritado AI, an intelligent solution designed to automate and optimize SEO tasks.</p>

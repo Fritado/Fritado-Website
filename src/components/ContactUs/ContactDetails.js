@@ -1,8 +1,5 @@
 import React from "react";
-import * as Icon1 from "react-icons/bi";
-import * as Icon3 from "react-icons/hi2";
-import * as Icon2 from "react-icons/io5";
-import * as Icon4 from "react-icons/io5";
+import ContactDetailCard from "./ContactDetailCard";
 
 const contactDetails = [
   {
@@ -10,7 +7,7 @@ const contactDetails = [
     heading: "Address",
     description1: "Fritado Technologies Private Limited",
     description2:
-      "No.1983, South end, D Street Road, Jayanagara 9th Block, Bengaluru, Karnataka 560069",
+      "No. 8, CMH Road, 2nd Stage, Indiranagar, Bengaluru, Karnataka - 560 038",
     details: "",
   },
 
@@ -32,40 +29,18 @@ const contactDetails = [
 
 const ContactDetails = () => {
   return (
-    <div
-      className="flex flex-col lg:p--6 p-4 "
-      style={{
-        boxShadow:
-          "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
-      }}
-    >
-      {contactDetails.map((ele, i) => {
-        let Icon = Icon1[ele.icon] || Icon2[ele.icon] || Icon3[ele.icon];
-        return (
-          <div key={i} className="text-justify flex flex-row gap-[2px] p-4">
-            <div style={{ color: "rgba(47, 130, 162, 0.8588235294)" }}>
-              <Icon size={26} />
-            </div>
-            <div className="flex flex-col ml-3 gap-2 ">
-              <h1 className="text-xl font-semibold text-stone-900 pb-1">
-                {ele.heading}
-              </h1>
-              <div className="text-justify">
-                <p className="font-semibold text-justify text-xl text-gray-800  pb-1">
-                  {ele?.description1}
-                </p>
-                <p className="font- text-base  text-gray-800  pb-1">
-                  {ele?.description2}
-                </p>
-                <p className="font-text-base text-gray-800 pb-1">
-                  {ele?.details}
-                </p>
-              </div>
-            </div>
-          </div>
-        );
-      })}
-    </div>
+    <div className="contact-page head-div">
+    {contactDetails.map((detail, index) => (
+      <ContactDetailCard
+        key={index}
+        icon={detail.icon}
+        heading={detail.heading}
+        description1={detail.description1}
+        description2={detail.description2}
+        details={detail.details}
+      />
+    ))}
+  </div>
   );
 };
 

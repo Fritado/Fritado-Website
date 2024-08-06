@@ -26,8 +26,8 @@ const FaqAreaOne = () => {
     <>
       {/*==================== Faq area start ====================*/}
       <div
-        className="faq-area faq-area-margin-top bg-cover pd-top-90 pd-bottom-110"
-        style={{ backgroundImage: 'url("./assets/img/bg/3.png")' }}
+        className="faq-area faq-area-margin-top pd-top-90 pd-bottom-90"
+        
       >
         <div className="container">
           <div className="row pd-top-120">
@@ -52,13 +52,11 @@ const FaqAreaOne = () => {
               data-aos-duration="1500"
             >
               <div className="section-title mb-0 mt-4 mt-lg-0">
-                <h6 className="sub-title">
-                  The values that drive everything we do
-                </h6>
-                <h2 className="title">
-                 Fundamental <span>Principles  </span> that Drive Us.
+                
+                <h2 className="heading">
+                 Fundamental Principles that Drive Us.
                 </h2>
-                <p className="content">
+                <p className="content title-para">
                 Our operation is guided by core values that ensure we deliver the best service to our clients:
                 </p>
               </div>

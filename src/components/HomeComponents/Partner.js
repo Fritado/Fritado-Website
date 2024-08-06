@@ -36,15 +36,30 @@ const Partner = () => {
        
       };
   return (
+   
+      <section className='head-div'>
+        <div className="container">
+          <div className="d-flex flex-column justify-content-center align-items-center text-center">
+            <h2 className="heading">Seamless Integration
+            </h2>
+            <div className="title-para">
+              <p>With Multiple Social Platforms Including Facebook, Instagram, and Blogging Sites</p>
+            </div>
+          </div>
+          
+        </div>
+      
     <div className="image-slider">
     <Slider {...settings}>
       {partnerLogos.map((img, index) => (
-        <div key={index} className="">
+        <div key={index}>
           <img src={img} alt={`Slide ${index}`} />
         </div>
       ))}
     </Slider>
   </div>
+  </section>
+  
   )
 }
 
