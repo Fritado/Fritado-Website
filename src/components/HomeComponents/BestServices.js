@@ -34,7 +34,7 @@ const ServiceAreaFive = () => {
                   </div>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">
+                  <h5 className="mb-3 service-title">
                     <Link to="/service-details">Blog Automation</Link>
                   </h5>
                   <p className="mb-0">
@@ -54,7 +54,7 @@ const ServiceAreaFive = () => {
                   </div>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">
+                  <h5 className="mb-3  service-title">
                     <Link to="/service-details">
                       Auto Social Posting for Brand Visibility
                     </Link>
@@ -77,7 +77,7 @@ const ServiceAreaFive = () => {
                   </div>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">
+                  <h5 className="mb-3  service-title">
                     <Link to="/service-details">Onsite SEO Suggestions </Link>
                   </h5>
                   <p className="mb-0">
@@ -105,7 +105,7 @@ const ServiceAreaFive = () => {
                   </div>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">
+                  <h5 className="mb-3  service-title">
                     <Link to="/service-details">Grow Your Website Traffic</Link>
                   </h5>
                   <p className="mb-0">
@@ -125,7 +125,7 @@ const ServiceAreaFive = () => {
                   </div>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">
+                  <h5 className="mb-3  service-title">
                     <Link to="/service-details">
                       Integrate with 2000+ Applications
                     </Link>
@@ -148,7 +148,7 @@ const ServiceAreaFive = () => {
                   </div>
                 </div>
                 <div className="details">
-                  <h5 className="mb-3">
+                  <h5 className="mb-3  service-title">
                     <Link to="/service-details">
                       Unified Analytics Dashboard
                     </Link>

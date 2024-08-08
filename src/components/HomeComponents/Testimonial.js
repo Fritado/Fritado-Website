@@ -1,10 +1,10 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import Slider from "react-slick";
-import FritadoClient1 from "../Assets/clientLogo/client/DUCB_logo_x.png";
+import FritadoClient1 from "../Assets/clientLogo/client/Fritado_client_Jhanvi_enterprises.png";
 import FritadoClient2 from "../Assets/clientLogo/client/Fritado_client_vijayashree_Hospitals.png";
 import FritadoClient3 from "../Assets/clientLogo/client/Fritado_client_bullsorbit.png";
-import FritadoClient4 from "../Assets/clientLogo/client/Fritado_client_apnapandit.png";
+import FritadoClient4 from "../Assets/clientLogo/client/Fritado_client_airbiz.png";
 
 const Testimonial = () => {
   const settings = {
@@ -63,13 +63,8 @@ const Testimonial = () => {
                     <div className="col-md-5">
                       <div className="thumb">
                         <div className="shadow-img">
-                          <img src="assets/img/testimonial/0.png" alt="img" />
+                          <img src={FritadoClient1} alt="img" />
                         </div>
-                        <img
-                          className="main-img border bg-white"
-                          src={FritadoClient1}
-                          alt="img"
-                        />
                       </div>
                     </div>
                     <div className="col-md-7 align-self-center">
@@ -84,7 +79,7 @@ const Testimonial = () => {
                           performance with Fritado. Their AI techniques have
                           driven substantial traffic increases.
                         </p>
-                        <h6 className="mb-0 mt-3">Prashanth Bellulli</h6>
+                        <h6 className="mb-0 mt-3">Rabindranath M</h6>
                         <div className="ratting-inner mt-3">
                           <FaStar />
                           <FaStar />
@@ -102,14 +97,9 @@ const Testimonial = () => {
                   <div className="row">
                     <div className="col-md-5">
                       <div className="thumb">
-                        <div className="shadow-img">
-                          <img src="assets/img/testimonial/0.png" alt="img" />
+                        <div className="shadow-img ">
+                          <img src={FritadoClient2} alt="img" />
                         </div>
-                        <img
-                          className="main-img bg-white"
-                          src={FritadoClient2}
-                          alt="img"
-                        />
                       </div>
                     </div>
                     <div className="col-md-7 align-self-center">
@@ -143,13 +133,8 @@ const Testimonial = () => {
                     <div className="col-md-5">
                       <div className="thumb">
                         <div className="shadow-img">
-                          <img src="assets/img/testimonial/0.png" alt="img" />
+                          <img src={FritadoClient3} alt="img" />
                         </div>
-                        <img
-                          className="main-img bg-white"
-                          src={FritadoClient3}
-                          alt="img"
-                        />
                       </div>
                     </div>
                     <div className="col-md-7 align-self-center">
@@ -183,13 +168,8 @@ const Testimonial = () => {
                     <div className="col-md-5">
                       <div className="thumb">
                         <div className="shadow-img">
-                          <img src="assets/img/testimonial/0.png" alt="img" />
+                          <img src={FritadoClient4} alt="img" />
                         </div>
-                        <img
-                          className="main-img"
-                          src={FritadoClient4}
-                          alt="img"
-                        />
                       </div>
                     </div>
                     <div className="col-md-7 align-self-center">
@@ -200,11 +180,11 @@ const Testimonial = () => {
                           alt="img"
                         />
                         <p className="designation mb-0">
-                          Fritado's AI-driven SEO solutions boosted our organic
-                          traffic by 150% and improved our search rankings.
-                          Their support is exceptional.
+                          Fritado's advanced SEO strategies and AI-driven
+                          analytics have significantly enhanced our online
+                          presence, driving more qualified traffic.
                         </p>
-                        <h6 className="mb-0 mt-3">Pandit Shivakant Jha</h6>
+                        <h6 className="mb-0 mt-3">Mr Javeed</h6>
                         <div className="ratting-inner mt-3">
                           <FaStar />
                           <FaStar />

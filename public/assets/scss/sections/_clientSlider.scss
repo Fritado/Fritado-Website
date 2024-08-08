@@ -1,7 +1,6 @@
-/* src/components/Clients.css */
+
 .image-slider {
-    //border: 2px solid #ddd; 
-    padding: 20px; /* Add padding inside the border */
+    padding: 20px; 
     margin-bottom: 20px; 
     position: relative;
     background-color: white;
@@ -13,8 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  // margin:2rem 0;
-    
+   
 
   }
   
@@ -25,4 +23,26 @@
     margin: 0 auto;
    
   }
+  @media (max-width: 1200px) {
+    .image-slider {
+      padding: 15px; 
+    }
+  }
   
+  @media (max-width: 992px) {
+    .image-slider {
+      padding: 10px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .image-slider {
+      padding: 5px; 
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .image-slider {
+      padding: 2px; 
+    }
+  }

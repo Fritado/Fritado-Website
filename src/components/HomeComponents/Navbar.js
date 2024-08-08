@@ -5,18 +5,18 @@ import { Link } from "react-router-dom";
 const NavbarFour = () => {
   const [active, setActive] = useState(false);
   const [navbar, setNavbar] = useState(false);
-  const [searchShow, setSearchShow] = useState(false);
+  //const [searchShow, setSearchShow] = useState(false);
   const [logo, setLogo] = useState("assets/img/logo-white.png");
   const menuActive = () => {
     setActive(!active);
   };
-  const searchActive = () => {
-    setSearchShow(!searchShow);
+  // const searchActive = () => {
+  //   setSearchShow(!searchShow);
     
-  };
+  // };
 
   const changeBackground = () => {
-    if (window.scrollY >= 92) {
+    if (window.scrollY >= 92  || window.innerWidth <= 992) {
       setNavbar(true);
       setLogo("assets/img/logo3.png");
     } else {
@@ -28,12 +28,28 @@ const NavbarFour = () => {
   useEffect(() => {
     changeBackground();
     window.addEventListener("scroll", changeBackground);
+    window.addEventListener("resize", changeBackground); // Add resize listener
+    return () => {
+      window.removeEventListener("scroll", changeBackground);
+      window.removeEventListener("resize", changeBackground); // Clean up resize listener
+    };
   }, []);
 
   // Control sidebar navigation
-  let items = document.querySelectorAll(".menu-item-has-children > a");
-  for (let i in items) {
-    if (items.hasOwnProperty(i)) {
+  // let items = document.querySelectorAll(".menu-item-has-children > a");
+  // for (let i in items) {
+  //   if (items.hasOwnProperty(i)) {
+  //     items[i].onclick = function () {
+  //       this.parentElement
+  //         .querySelector(".sub-menu")
+  //         .classList.toggle("active");
+  //       this.classList.toggle("open");
+  //     };
+  //   }
+  // }
+  useEffect(() => {
+    let items = document.querySelectorAll(".menu-item-has-children > a");
+    for (let i = 0; i < items.length; i++) {
       items[i].onclick = function () {
         this.parentElement
           .querySelector(".sub-menu")
@@ -41,33 +57,10 @@ const NavbarFour = () => {
         this.classList.toggle("open");
       };
     }
-  }
+  }, []);
   return (
     <>
-      {/* search popup start*/}
-      <div
-        className={searchShow ? "td-search-popup active" : "td-search-popup "}
-        id="td-search-popup"
-      >
-        <form action="/" className="search-form">
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search....."
-            />
-          </div>
-          <button type="submit" className="submit-btn">
-            <FaSearch />
-          </button>
-        </form>
-      </div>
-      {/* search popup end*/}
-      <div
-        onClick={searchActive}
-        className={searchShow ? "body-overlay active" : "body-overlay"}
-        id="body-overlay"
-      ></div>
+   
       {/* ==================== Navbar Two Start ====================*/}
       <nav className={navbar ? " li-color navbar navbar-area navbar-expand-lg " : "li-color-before navbar navbar-area navbar-area-3 navbar-expand-lg"}>
         <div className={navbar? "container nav-container bg-white " :" container nav-container"}>
@@ -92,11 +85,11 @@ const NavbarFour = () => {
               <img src={logo} alt="fritado-logo" />
             </Link>
           </div>
-          <div className="nav-right-part nav-right-part-mobile">
+          {/* <div className="nav-right-part nav-right-part-mobile">
             <span className="search-bar-btn" onClick={searchActive}>
               <FaSearch />
             </span>
-          </div>
+          </div> */}
           <div
             className={
               active
@@ -112,6 +105,9 @@ const NavbarFour = () => {
               
               <li className="">
                 <Link to="/solutions">Solutions</Link>
+              </li>
+              <li className="">
+                <Link to="/pricing">Pricing</Link>
               </li>
               <li className="">
                 <Link to="/demo">Demo</Link>

@@ -58,15 +58,19 @@ const FooterFour = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
-                <div className="my-3">
-                  <img src={"assets/img/logo-white.png"} style={{width:"180px"}}/>
-                </div>
+              <div className="my-3">
+                <img
+                  src={"assets/img/logo-white.png"}
+                  style={{ width: "180px" }}
+                />
+              </div>
               <div className="widget widget-recent-post">
                 <div className="widget widget_contact">
                   <ul className="details">
                     <li className="d-flex position-relative">
                       <FaMapMarkerAlt size={35} className="sky" />
-                      No. 8, CMH Road, 2nd Stage, Indiranagar, Bengaluru, Karnataka - 560 038
+                      No. 8, CMH Road, 2nd Stage, Indiranagar, Bengaluru,
+                      Karnataka - 560 038
                     </li>
                     <li className="mt-3 d-flex position-relative">
                       <FaPhoneAlt className="sky" /> +(91)-974-1156-389
@@ -123,15 +127,16 @@ const FooterFour = () => {
                   <li className="sky">
                     <Link to="/solutions">
                       <span className="d-flex">
-                        <FaChevronRight />Solutions
+                        <FaChevronRight />
+                        Solutions
                       </span>
                     </Link>
                   </li>
                   <li className="sky">
                     <Link to="/pricing">
                       <span className="d-flex">
-                      <FaChevronRight />Pricing
-
+                        <FaChevronRight />
+                        Pricing
                       </span>
                     </Link>
                   </li>
@@ -139,8 +144,8 @@ const FooterFour = () => {
                   <li className="sky">
                     <Link to="/Research-and-development">
                       <span className="d-flex">
-                      <FaChevronRight />R&D Center
-
+                        <FaChevronRight />
+                        R&D Center
                       </span>
                     </Link>
                   </li>
@@ -174,12 +179,18 @@ const FooterFour = () => {
                 <ul>
                   <li className="sky">
                     <Link to="/terms-and-condition">
-                      <span> Terms & Conditions</span>
+                      <span className="d-flex">
+                        {" "}
+                        <FaChevronRight /> Terms & Conditions
+                      </span>
                     </Link>
                   </li>
                   <li className="sky">
                     <Link to="/privacy-policy">
-                      <span>Privacy Policy</span>
+                      <span className="d-flex">
+                        {" "}
+                        <FaChevronRight /> Privacy Policy
+                      </span>
                     </Link>
                   </li>
                 </ul>

@@ -7,7 +7,6 @@ const PriceCard = forwardRef(({ plan }, ref) => {
     <div ref={ref} className="planCard">
       <div className="plan-card-container">
         <div className="planCardWrapper">
-          <div className="planCardHeader"></div>
           <div class="PlanCard_PriceBlock">
             <p class="PlanCard_planName">{plan.plan}</p>
             <p class="PlanCard_planUseDescription">{plan.planDesc}</p>
@@ -22,17 +21,18 @@ const PriceCard = forwardRef(({ plan }, ref) => {
             </div>
             <p class="small PlanCard_priceDescription">{plan.planpara}</p>
           </div>
+
           <div class="small PlanCard_operationsContainer">
             <span>{plan.planHeading}</span>
           </div>
-          <div class="pricing-button mt-4 text-center p-3  btn-base-color ">
-            <Link to="">Get started</Link>
-          </div>
-          {/* {plan.plan !== "Enterprise" && (
+
+          {plan.plan === "Enterprise" ? (
+            ""
+          ) : (
             <div className="pricing-button mt-4 text-center p-3  btn-base-color ">
               <Link to="">Get started</Link>
             </div>
-          )} */}
+          )}
 
           {/* below part plan */}
           <div class="PlanCard_descWrapper"></div>

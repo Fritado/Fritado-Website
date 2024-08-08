@@ -3,9 +3,9 @@
     ## Button
 ---------------------------------------*/
 .btn {
-  height: 55px;
-  line-height: 55px;
-  padding: 0 30px;
+  min-height: 3rem;
+  max-width: max-content;
+  padding: 0.5rem 1rem;
   border-radius: 0;
   overflow: hidden;
   position: relative;
@@ -22,6 +22,7 @@
   &:after {
     content: "";
     background: #0c6f96db;
+   
     position: absolute;
     transition: $transition;
     z-index: -1;
@@ -47,7 +48,7 @@
   }
   svg {
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 8px;
     margin-left: 6px;
     float: right;
   }
@@ -121,7 +122,7 @@
 .btn-border-base-2 {
   color: #2f82a2db;
   border: 2px solid #2f82a2db;
-  line-height: 52px;
+  //line-height: 52px;
   &:after {
     background: #2f82a2db;
   }
@@ -488,7 +489,7 @@
     justify-content: center;
     text-align: center;
     z-index: 2;
-    padding:2rem 0rem;
+    padding:2rem 2rem;
   }
   .title-para{
     font-size: 1.2rem;
@@ -521,6 +522,43 @@
     color:rgba(47, 130, 162, 0.8588235294 );
   }
 
+  @media (max-width: 768px) {
+    .breadcrumb-area {
+      padding: 2.5rem 0 0;
+    }
+    
+    .page-title {
+      font-size: 2rem;
+    }
+    
+    .breadcrumb-container {
+      padding: 1.5rem 0;
+    }
+    
+    .title-para {
+      font-size: 1rem;
+      padding: 0.5rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .breadcrumb-area {
+      padding: 1.5rem 0 0;
+    }
+    
+    .page-title {
+      font-size: 1.5rem;
+    }
+    
+    .breadcrumb-container {
+      padding: 1rem 0;
+    }
+    
+    .title-para {
+      font-size: 0.9rem;
+      padding: 0.4rem 0;
+    }
+  }
 
 /********* social-media *********/
 .social-media {

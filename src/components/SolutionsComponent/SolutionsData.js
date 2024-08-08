@@ -2,7 +2,7 @@ export const BlogAutomationData = {
   heading: "Blog Automation with Fritado AI",
   description:
     "Enhance your content strategy with daily article suggestions and automated, SEO-optimized writing. Save time, maintain consistency, and leverage data-driven insights. Stay competitive with AI-driven blog automation that keeps your content fresh, relevant, and top-ranking on Google.",
-  image: require("../Assets/Solutions/Onsite SEO Suggestions with Fritado AI.png"),
+  image: require("../Assets/Solutions/Content-automation-social 1.png"),
   points: [
     {
       title: "Daily Article Suggestions",
@@ -90,7 +90,7 @@ export const AutoSocialPostingData = {
   heading: "Auto Social Posting for Brand Visibility with Fritado AI",
   description:
     "Boost your brand presence with automated social media posting across platforms like Facebook, Instagram, LinkedIn, and more. Enhance visibility, engage your audience consistently, and streamline your content distribution with Fritado AI’s seamless integration and scheduling capabilities.",
-  image: require("../Assets/Solutions/Auto Social Posting for Brand Visibility with Fritado Technologies AI.png"),
+  image: require("../Assets/Solutions/social_media.png"),
   points: [
     {
       title: "Multi-Platform Posting",
@@ -134,7 +134,7 @@ export const IntegrationData = {
   heading: "Seamless Integration with 2000+ Applications",
   description:
     "Effortlessly connect with over 2000 applications, including HubSpot and Zoho, for streamlined workflows and enhanced productivity. Simplify automation, data syncing, and scalability with user-friendly integration that fits seamlessly into your existing processes.",
-  image: require("../Assets/Solutions/Seamless Integration with 2000+ Applications.png"),
+   image: require("../Assets/Solutions/Seamless Integration with 2000+ Applications.png"),
   points: [
     {
       title: "Extensive Connectivity",
@@ -178,7 +178,7 @@ export const TrafficGrowthData = {
   heading: "Grow Your Website Traffic with Fritado AI",
   description:
     "Automatically optimize your site for increased traffic and higher rankings. Fritado AI’s advanced algorithms drive effortless growth, enhancing your SEO and boosting your online presence.",
-  image: require("../Assets/Solutions/Grow Your Website Traffic with Fritado AI.png"),
+  image: require("../Assets/Solutions/Analytics.png"),
   points: [
     {
       title: "Automated Optimization",
@@ -222,7 +222,7 @@ export const UnifiedAnalyticsData = {
   heading: "Unified Analytics Dashboard with Fritado AI",
   description:
     "Comprehensive Overview: Access all key metrics from Google Analytics (GA) and Google Search Console (GSC) in one unified platform.",
-  image: require("../Assets/Solutions/Onsite SEO Suggestions with Fritado AI.png"),
+  image: require("../Assets/Solutions/Unified Analytics Dashboard.png"),
   points: [
     {
       title: "Comprehensive Overview",

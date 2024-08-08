@@ -9,42 +9,42 @@ const SolutionSecrtion = ({ data, flexDirection }) => {
     setShowKeyPoints(!showKeyPoints);
   };
   const marginStyle =
-    flexDirection === "row" ? { marginRight: "4rem" } : { marginLeft: "4rem" };
+    flexDirection === "row" ? { marginRight: "4rem" } : { marginLeft: "4rem"};
   return (
     <section className="top-section head-div solution-section">
       <div className="main-div container" style={{ flexDirection }}>
         <div
-          className=" animate-div d-flex align-items-center "
+          className="animate-div d-flex align-items-center "
           style={{ flexDirection }}
         >
           <img
             src={data.image}
             alt={data.heading}
-            className="image-container "
+            className="image-container"
             style={marginStyle}
+          
           />
 
-          <div className="content-container title-content">
+          <div className="content-container text-left title-content">
             <h2 className="heading">{data.heading}</h2>
             <p>{data.description}</p>
-            <div className="view-more-btn">
+            <div className="view-more-btn d-flex flex-row">
               <span
                 onClick={handleViewMore}
-                className="d-flex flex-row btn-tab"
+                className="btn-tab view-more-less"
               >
-                {showKeyPoints ? "View Less" : "View More"}{" "}
-                {/* <IoMdArrowForward size={22} className="pt-1 pl-1" /> */}
+                {showKeyPoints ? "View Less" : "View More"}
               </span>
+                <span className="btn-tab btn-base-color">
               <Link to="https://platform.fritado.com/" target="_">
-                <span className="btn-tab">
                   Register now
-                  {/* Register now <FaPlus /> */}
-                </span>
               </Link>
+                  </span>
             </div>
           </div>
         </div>
       </div>
+
       <SolutionCard points={data.points} showKeyPoints={showKeyPoints} />
     </section>
   );

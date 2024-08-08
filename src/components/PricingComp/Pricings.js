@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import Breadcrumb from "../commonComp/Breadcrumb";
 import PriceCard from "./PriceCard";
 import ResearchDevFAQ from "../ResearchDevelopment/ResearchDevFAQ";
 import { planData } from "../PricingComp/PlanData";
+import { TiTick } from "react-icons/ti";
 
 const Pricings = () => {
   const cardRefs = useRef([]);
@@ -28,16 +28,18 @@ const Pricings = () => {
 
   return (
     <div>
-      <div className="d-flex flex-column justify-content-center align-items-center">
-        <Breadcrumb
-          title={"Expand as You Grow"}
-          para={
-            "Whether You're a Small Business, Medium Enterprise, or Large Corporation, We Offer Solutions to Automate Business Branding and Traffic Generation with Our Advanced Automation Tools"
-          }
-        />
-      </div>
-      <section className="head-div">
-        <div className="d-flex flex-row justify-content-center align-items-center mx-auto title-content">
+      <section className="head-div pricing-head">
+        <div className="d-flex flex-row gap-4 my-3 mx-2 justify-content-center align-items-center ">
+          <div className="d-flex flex-row gap-1">
+            <TiTick size={22} />
+            <p className="fw-bolder">No credit card required</p>
+          </div>
+          <div className="d-flex flex-row gap-1">
+            <TiTick size={22}/>
+            <p className="fw-bolder">No time limit on Free plan</p>
+          </div>
+        </div>
+        <div className="pricing-container d-flex flex-wrap justify-content-center align-items-center mx-auto title-content">
           {planData.map((plan, index) => (
             <PriceCard
               key={plan.id}
@@ -48,11 +50,14 @@ const Pricings = () => {
         </div>
       </section>
       <section className="head-div">
-        <div className="container"> 
+        <div className="container">
           <div className="d-flex flex-column justify-content-center align-items-center text-center title-content">
-            <h2 className="heading">Why Choose Fritado R&D Center?</h2>
+            <h2 className="heading">Why Choose Fritado AI?</h2>
             <div className="title-para">
-              <p>Rapidly evolving technological landscape, the demand for</p>
+              <p>
+                Fritado AI automates your SEO, boosting brand visibility and
+                online revenue.
+              </p>
             </div>
           </div>
           <div>

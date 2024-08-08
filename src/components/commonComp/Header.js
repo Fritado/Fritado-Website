@@ -7,14 +7,14 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [active, setActive] = useState(false);
   const [navbar, setNavbar] = useState(false);
-  const [searchShow, setSearchShow] = useState(false);
+ // const [searchShow, setSearchShow] = useState(false);
   const menuActive = () => {
     setActive(!active);
   };
-  const searchActive = () => {
-    setSearchShow(!searchShow);
-    console.log("hell");
-  };
+  // const searchActive = () => {
+  //   setSearchShow(!searchShow);
+  //   console.log("hell");
+  // };
 
   const changeBackground = () => {
     if (window.scrollY >= 720) {
@@ -43,30 +43,7 @@ const Header = () => {
   }
   return (
     <>
-      {/* search popup start*/}
-      <div
-        className={searchShow ? "td-search-popup active" : "td-search-popup "}
-        id="td-search-popup"
-      >
-        <form action="/" className="search-form">
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search....."
-            />
-          </div>
-          <button type="submit" className="submit-btn">
-            <FaSearch />
-          </button>
-        </form>
-      </div>
-      {/* search popup end*/}
-      <div
-        onClick={searchActive}
-        className={searchShow ? "body-overlay active" : "body-overlay"}
-        id="body-overlay"
-      ></div>
+  
       {/* ==================== Navbar Two Start ====================*/}
       <nav
         className={
@@ -97,11 +74,11 @@ const Header = () => {
               <img src="assets/img/logo3.png" alt="img" />
             </Link>
           </div>
-          <div className="nav-right-part nav-right-part-mobile">
+          {/* <div className="nav-right-part nav-right-part-mobile">
             <span className="search-bar-btn" onClick={searchActive}>
               <FaSearch />
             </span>
-          </div>
+          </div> */}
           <div
             className={
               active
@@ -114,9 +91,7 @@ const Header = () => {
               <li className="">
                 <Link to="/">Home</Link>
               </li>
-              {/* <li className="">
-                <Link to="/about">About</Link>
-              </li> */}
+              
               <li className="">
                 <Link to="/solutions">Solutions</Link>
               </li>

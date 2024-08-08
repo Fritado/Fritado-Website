@@ -66,7 +66,7 @@ const ContactUsForm = () => {
         
         <input
           type="text"
-          name="lastname"
+          name="lastname"a
           id="lastname"
           value={lastname}
           onChange={handleOnChange}

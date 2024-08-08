@@ -8,7 +8,7 @@ const ResearchDev = () => {
   return (
     <div>
       <section className="head-div">
-        <div className="container container-div">
+        <div className="container">
           <div className="d-flex flex-column justify-content-center align-items-center text-center title-content">
             <h2 className="heading">Fritado R&D Center</h2>
             <div className="title-para">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Img1 from "../Assets/HomeAssets/Img1.png";
+import { TiTick } from "react-icons/ti";
 
 const BannerFive = () => {
   return (
@@ -33,7 +34,7 @@ const BannerFive = () => {
                 </h2>
                 <p
                   className="content pe-xl-4"
-                  style={{color:"#c7cacb"}}
+                  style={{ color: "#c7cacb" }}
                   data-aos="fade-right"
                   data-aos-delay="350"
                   data-aos-duration="1500"
@@ -42,17 +43,32 @@ const BannerFive = () => {
                   Implement SEO to Rank Your Website on Google's First Page for
                   High-Value Keywords
                 </p>
-                <div>
-                  <Link
-                    className="btn btn-border-base-2"
-                    data-aos="fade-right"
-                    data-aos-delay="450"
-                    data-aos-duration="1500"
-                    to="https://platform.fritado.com/"
-                    target="_"
-                  >
-                    Register now <FaPlus />
-                  </Link>
+
+                <Link
+                  className="btn btn-border-base-2"
+                  data-aos="fade-right"
+                  data-aos-delay="450"
+                  data-aos-duration="1500"
+                  to="https://platform.fritado.com/"
+                  target="_"
+                >
+                  <span>Register now </span>
+
+                  <FaPlus />
+                </Link>
+                <div className="d-flex flex-row gap-4 my-3">
+                  <div className="d-flex flex-row gap-1 ">
+                    <TiTick size={20} color={"#f68120"} />
+                    <h3 style={{ color: "#f68120" }}>
+                      No credit card required
+                    </h3>
+                  </div>
+                  <div className="d-flex flex-row gap-1">
+                    <TiTick size={20} color={"#f68120"} />
+                    <h3 style={{ color: "#f68120" }}>
+                      No time limit on Free plan
+                    </h3>
+                  </div>
                 </div>
               </div>
             </div>

@@ -16,7 +16,7 @@ const ContactUs = () => {
       </div>
 
       <section className="mx-auto flex flex-col justify-center items-center mt-7 mb-20 w-full lg:p-10 head-div">
-        <div className="lg:w-[57%]">
+        <div className="lg:w-[57%] mx-4">
           <div className="text-richblack-300 flex flex-col ">
             <h2 className="heading text-3xl font-semibold text-center">
               Fill out the form below, and we'll get back to you shortly.

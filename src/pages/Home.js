@@ -27,9 +27,9 @@ const HomeFive = () => {
       <section>
         <div className="container ">
           <div className="d-flex flex-column justify-content-center align-items-center text-center head-div">
-            <h2 className="heading">Why Choose Fritado R&D Center?</h2>
+            <h2 className="heading">Why Choose Fritado AI?</h2>
             <div className="title-para">
-              <p>Rapidly evolving technological landscape, the demand for</p>
+              <p>Fritado AI automates your SEO, boosting brand visibility and online revenue.</p>
             </div>
           </div>
           <div>
@@ -40,6 +40,7 @@ const HomeFive = () => {
 
       <Testimonial />
       {/* clients */}
+      
       <Clients />
 
       {/* Footer Four */}
