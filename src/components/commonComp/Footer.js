@@ -16,45 +16,8 @@ const FooterFour = () => {
   return (
     <>
       {/* ================== Footer Four Start ==================*/}
-      <footer
-        className="footer-area bg-cover mt-20 pd-top-100"
-        //style={{ backgroundImage: 'url("assets/img/bg/14.png")' }}
-      >
-        <div className="footer-subscribe">
-          {/* <div className="container">
-            <div className="footer-subscribe-inner box-shadow style-2 bg-white p-0 bg-cover">
-              <div className="media bg-base-2">
-                <div className="media-left me-3 align-self-xl-center">
-                  <img src="assets/img/icon/40.svg" alt="img" />
-                </div>
-                <div className="media-body">
-                  <h6 className="text-white">+(91)-974-1156-389</h6>
-                  <p className="mb-0 text-white">Call 24HR / 7Days</p>
-                </div>
-              </div>
-              <div className="row align-self-center">
-                <div className="col-lg-4">
-                  <div className="border-1">
-                    <input type="text" placeholder="Your Name" />
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="border-1">
-                    <input type="text" placeholder="Your Email" />
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <Link
-                    className="btn w-100 btn-black sky border-radius-0"
-                    href="#"
-                  >
-                    Submit now
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div> */}
-        </div>
+      <footer className="footer-area bg-cover mt-20 pd-top-100">
+        <div className="footer-subscribe"></div>
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
